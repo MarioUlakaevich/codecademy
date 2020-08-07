@@ -1,0 +1,114 @@
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url("../img/rohit-tandon-9wg5jCEPBsw-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    text-align: center;
+    color: #fff;
+}
+
+.dark {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .15);
+}
+
+header nav{
+    padding-top: 20px;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 4rem;
+    width: 70%;
+    margin: 20px auto 50px auto;
+}
+
+header p {
+    font-size: 20px;
+    width: 70%;
+    margin: 20px auto 50px auto;
+}
+
+header p, header h1{
+    position: relative;
+    top: 150px;
+}
+
+.button {
+    font-weight: 600;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    max-width: 100px;
+    padding: 10px 5px;
+    margin: 0 auto;
+}
+
+.button:hover {
+    background-color: #fff;
+    color: #ffc300;
+}
+
+header .button {
+    position: relative;
+    top: 200px;
+}
+
+.item{
+    display: inline;
+    padding: 10px 0;
+    margin: 20px 20px;
+}
+
+.item a:hover {
+    color: #ffc300;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.banner a {
+    color: #ffc300;
+}
+
+
+
+
+
+@media only screen and (max-width: 703px){
+    header h1 {
+        width: 400px;
+        font-size: 50px;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    header h1 {
+        width: 200px;
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 325px){
+    header {
+        height: 850px;
+    }
+
+    header p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+}

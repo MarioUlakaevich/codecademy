@@ -1,0 +1,43 @@
+div {
+  margin-top: 50px;
+}
+
+h1, h2, h3, p {
+  font-family: Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 100px;
+  font-weight: bold;
+  color: khaki;
+  text-align: center;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+
+span {
+  font-weight: bold;
+  color: blue;
+}
+
+#brushes .title {
+  background-color: mediumspringgreen;
+}
+
+#frames .title {
+  background-color: lightcoral;
+}
+
+#paint .title {
+  background-color: skyblue;
+}
+
+.header {
+  background-image: url("../img/pattern.jpeg");
+  background-size: cover;
+  background-position: center;
+}

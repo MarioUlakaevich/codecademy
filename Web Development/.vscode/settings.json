@@ -1,0 +1,9 @@
+{
+    "python.pythonPath": "c:\\Users\\ulaka\\AppData\\Local\\Programs\\Python\\Python38\\pythonw.exe",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    }
+}
